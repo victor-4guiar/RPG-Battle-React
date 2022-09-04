@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Battle from './components/Battle';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+		<Battle 
+		hp="100" 
+		hpn="100" 
+		sprn="https://64.media.tumblr.com/7f9a75b799a14dc7a2bc61ce705dedda/tumblr_lqpfuzvN2k1r0ralmo1_r4_500.gif" 
+		enemyNick="Michael Jackson" 
+		width="400"
+		height="400"
+		playerNick="Victor" />
     </div>
   );
 }
