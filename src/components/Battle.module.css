@@ -1,13 +1,16 @@
 .battle{
 	background-color: black;
 	width: 560px;
-	min-height: 320px;
+	min-height: 360px;
 	border-radius: 10px;
 	margin: 20px auto 0px auto;
 	overflow: hidden;
+	position: relative;
 }
 
 .enemy_spr{
+	position: absolute;
+	left: 110px;
 	display: flex;
 	margin: auto;
 }

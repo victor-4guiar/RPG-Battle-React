@@ -1,7 +1,6 @@
 import Battle from './components/Battle';
 
 function App() {
-  let textLine = ["a", "ae"];
   return (
     <div className="App">
 		<Battle 
@@ -12,7 +11,6 @@ function App() {
 		width="300"
 		height="300"
 		playerNick="Victor" 
-		textLine={textLine}
 		/>
     </div>
   );
