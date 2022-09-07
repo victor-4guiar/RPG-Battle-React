@@ -1,0 +1,15 @@
+.box_model{
+	display: flex;
+	padding: 10px;
+	height: 102px;
+	max-width: 400px;
+	background-color: black;
+	border: 4px solid white;
+	color: white;
+	margin: auto;
+}
+
+.text_model{
+	font-size: 1.5em;
+	margin: 0;
+}

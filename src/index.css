@@ -1,7 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	background-color: #454545;
 	color: white;
-	font-family: 'Arial', 'Helvetica', 'Verdana', 'sans-serif'; 
+	font-family: 'Arial', 'Helvetica', 'Verdana', 'sans-serif';
 }
 
 .App{

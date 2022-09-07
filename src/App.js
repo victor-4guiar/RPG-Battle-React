@@ -1,6 +1,7 @@
 import Battle from './components/Battle';
 
 function App() {
+  let textLine = ["a", "ae"];
   return (
     <div className="App">
 		<Battle 
@@ -8,9 +9,11 @@ function App() {
 		hpn="100" 
 		sprn="https://64.media.tumblr.com/7f9a75b799a14dc7a2bc61ce705dedda/tumblr_lqpfuzvN2k1r0ralmo1_r4_500.gif" 
 		enemyNick="Michael Jackson" 
-		width="400"
-		height="400"
-		playerNick="Victor" />
+		width="300"
+		height="300"
+		playerNick="Victor" 
+		textLine={textLine}
+		/>
     </div>
   );
 }
